@@ -151,6 +151,7 @@ nav svg {
     }
 
     .open-sidebar-button, .close-sidebar-button{
+        position: sticky;
         padding: 20px;
         display: block;
         cursor: pointer;
