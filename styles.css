@@ -144,6 +144,7 @@ nav svg {
 
     nav a{
         box-sizing: border-box;
+        position: sticky;
         height: 50%;
         width: 100%;
         padding: 20px 30px;
