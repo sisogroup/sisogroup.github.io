@@ -17,6 +17,8 @@ html {
 nav {
     grid-row: 1;
     height: 60px;
+    position: sticky;
+    z-index: 999;
     background-color: #131313;
     display: flex;
     justify-content: flex-end;
