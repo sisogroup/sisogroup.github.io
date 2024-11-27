@@ -126,10 +126,13 @@ nav svg {
 }
 
 @media(max-width: 600px) {
+    nav {
+        position: sticky;
+    }
     .links-container{
         flex-direction: column;
         align-items: flex-start;
-        position: sticky;
+        position: fixed;
         top: 0;
         right: -100%;
         z-index: 10;
