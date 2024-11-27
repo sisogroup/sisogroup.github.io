@@ -17,8 +17,7 @@ html {
 nav {
     grid-row: 1;
     height: 60px;
-    position: sticky;
-    z-index: 999;
+    Position: sticky;
     background-color: #131313;
     display: flex;
     justify-content: flex-end;
@@ -26,6 +25,8 @@ nav {
 }
 
 .links-container {
+    position: sticky;
+    z-index: 999;
     height: 100%;
     width: 100%;
     display: flex;
